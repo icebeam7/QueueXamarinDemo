@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="QueueXamarinDemo.Pages.QueuePage">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="White">
+            <Button Margin="20,10" x:Name="btnAddMessage" Text="Add a message" BackgroundColor="LightBlue" TextColor="Black" Clicked="btnAddMessage_Clicked"/>
+            <Button Margin="20,10" x:Name="btnGetNextMessage" Text="Get next message" BackgroundColor="LightBlue" TextColor="Black" Clicked="btnGetNextMessage_Clicked"/>
+            <Button Margin="20,10" x:Name="btnChangeNextMessage" Text="Change content of next message" BackgroundColor="LightBlue" TextColor="Black" Clicked="btnChangeNextMessage_Clicked"/>
+            <Button Margin="20,10" x:Name="btnGetMessageDelete" Text="Get message and remove" BackgroundColor="LightBlue" TextColor="Black" Clicked="btnGetMessageDelete_Clicked"/>
+            <Button Margin="20,10" x:Name="btnGetQueueLength" Text="Get queue length" BackgroundColor="LightBlue" TextColor="Black" Clicked="btnGetQueueLength_Clicked"/>
+            <Entry Margin="20,10" x:Name="txtData" BackgroundColor="Black" TextColor="White" WidthRequest="200" />
+            <Label Margin="20,10" x:Name="lblData" TextColor="Orange" LineBreakMode="WordWrap"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -13,8 +13,8 @@ namespace QueueXamarinDemo
 		{
 			InitializeComponent();
 
-			MainPage = new QueueXamarinDemo.MainPage();
-		}
+            MainPage = new Pages.QueuePage();
+        }
 
 		protected override void OnStart ()
 		{
